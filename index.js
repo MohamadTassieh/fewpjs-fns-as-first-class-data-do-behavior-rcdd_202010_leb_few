@@ -26,3 +26,8 @@ else {
 
 
 /* Write your implementation of displayMessage() */
+function displayMessage(testContent){
+  let content = document.getElementById("greeting").innerText
+}
+
+
