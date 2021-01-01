@@ -29,5 +29,3 @@ else {
 function displayMessage(testContent){
   let content = document.getElementById("greeting").innerText
 }
-
-
