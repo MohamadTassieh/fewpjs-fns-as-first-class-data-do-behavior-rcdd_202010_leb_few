@@ -11,14 +11,14 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(time){
-//let newTime = time.split(":")[0];
-if (time < 12){
+let newTime = time.split(":")[0];
+if (newTime < 12){
   return "Good Morning";
 }
 // else if (newTime >= 12 && time <= 17){
 //   return "Good Afternoon";
 //}
-else if (time > 17 && time <= 24) {
+else if (newTime > 17 && newTime <= 24) {
   return "Good Evening";
 }
 else {
