@@ -10,12 +10,11 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
-function greet(){
-let date = new date();
-if (date < 12){
+function greet(time){
+if (time <12){
   return "Godd Morning";
 }
-else if (date > 12 && date < 5){
+else if (time >= 12 && time <= 17){
   return "Good Afternoon";
 }
 else {
