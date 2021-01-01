@@ -13,7 +13,7 @@ function handleClick(e) {
 function greet(time){
 let newTime = time.split(":")[0];
 if (newTime < 12){
-  return "Godd Morning";
+  return "Good Morning";
 }
 else if (newTime >= 12 && time <= 17){
   return "Good Afternoon";
