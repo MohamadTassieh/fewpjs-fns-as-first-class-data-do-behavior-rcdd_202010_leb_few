@@ -18,9 +18,6 @@ if (newTime < 12){
 else if (newTime >= 12 && newTime <= 17){
   return "Good Afternoon";
 }
-// else if (newTime > 17 && newTime <= 24) {
-//   return "Good Evening";
-// }
 else {
   return "Good Evening";
 }
