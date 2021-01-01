@@ -18,8 +18,11 @@ if (newTime < 12){
 else if (newTime >= 12 && time <= 17){
   return "Good Afternoon";
 }
-else if (newTime > 17 && time < 24) {
+else if (newTime > 17 && time <= 24) {
   return "Good Evening";
+}
+else {
+  return "Error!";
 }
 }
 
