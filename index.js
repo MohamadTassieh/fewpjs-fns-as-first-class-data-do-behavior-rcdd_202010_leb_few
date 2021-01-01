@@ -15,7 +15,7 @@ let newTime = time.split(":")[0];
 if (newTime < 12){
   return "Good Morning";
 }
-else if (newTime >= 12 && time <= 17){
+else if (newTime >= 12 && time < 17){
   return "Good Afternoon";
 }
 else {
