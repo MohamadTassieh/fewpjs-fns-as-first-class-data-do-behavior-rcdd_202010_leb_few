@@ -21,9 +21,9 @@ else if (date > 12 && date < 5){
 else {
   return "Good Evening";
 }
-} 
+}
 
-  
+
 
 /* Write your implementation of displayMessage() */
  
