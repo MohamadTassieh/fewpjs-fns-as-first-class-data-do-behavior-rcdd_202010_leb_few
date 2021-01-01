@@ -25,4 +25,3 @@ else {
 
 
 /* Write your implementation of displayMessage() */
- 
