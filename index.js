@@ -18,7 +18,7 @@ if (time < 12){
 else if (time >= 12 && time <= 17){
   return "Good Afternoon";
 }
-else {
+else if (time > 17 && time < 24) {
   return "Good Evening";
 }
 }
